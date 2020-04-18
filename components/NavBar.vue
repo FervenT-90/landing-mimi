@@ -87,7 +87,7 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-   name: 'TheHeader' as string,
+   name: 'NavBar' as string,
    data() {
       return {
          isOpen: false
