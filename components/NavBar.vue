@@ -31,7 +31,7 @@
 
          <div class="flex sm:hidden">
             <button
-               class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase border border-white rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
+               class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
             >
                Join Us!
             </button>
@@ -75,7 +75,7 @@
             >Our Team</a
          >
          <button
-            class="hidden px-2 py-1 ml-4 font-semibold tracking-wider text-white uppercase border border-white rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block hover:bg-orange-mimi active:bg-teal-800"
+            class="hidden px-2 py-1 ml-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block hover:bg-orange-mimi active:bg-teal-800"
          >
             Join Us!
          </button>
