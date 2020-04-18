@@ -1,14 +1,17 @@
 <template>
-   <div class="container">
-      <h1>hola</h1>
+   <div>
+      <nav-bar />
    </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import NavBar from '@/components/NavBar.vue';
 
 export default Vue.extend({
-   components: {}
+   components: {
+      NavBar
+   }
 });
 </script>
 
