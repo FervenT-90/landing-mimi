@@ -1,6 +1,10 @@
 # landing-mimi
 
-> Landing page of iBox webapp
+Landing page of **iBox** webapp
+
+This is a project of a landing page for the **EOI-Frontend-Course**.
+
+If you want to track our tasks you can check our [Trello Board](https://trello.com/b/PuN90mcT/ibox-landing).
 
 ## Build Setup
 
