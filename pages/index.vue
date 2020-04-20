@@ -2,7 +2,7 @@
    <div class="">
       <nav-bar />
       <div
-         class="absolute right-0 z-20 invisible text-right text-white xl:visible xl:mt-12 xl:mr-20 xl:text-6xl font-primary "
+         class="absolute right-0 z-20 invisible text-right text-white xl:visible xl:mt-12 xl:mr-20 xl:text-6xl font-primary"
       >
          <p>Functional Training</p>
          <p>Box</p>
