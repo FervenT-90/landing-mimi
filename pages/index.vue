@@ -15,16 +15,20 @@
             />
          </svg>
       </div>
+      <div class="h-16 md:mt-16 lg:h-24 lg:mt-56"></div>
+      <carousel-controller />
    </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import NavBar from '@/components/NavBar.vue';
+import CarouselController from '@/components/CarouselController.vue';
 
 export default Vue.extend({
    components: {
-      NavBar
+      NavBar,
+      CarouselController
    }
 });
 </script>
