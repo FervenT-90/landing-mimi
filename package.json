@@ -13,8 +13,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/dotenv": "^1.4.0"
+    "@nuxtjs/dotenv": "^1.4.0",
+    "hooper": "^0.3.4",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
