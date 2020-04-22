@@ -1,5 +1,5 @@
 <template>
-   <div class="">
+   <div>
       <nav-bar />
       <div
          class="absolute right-0 z-20 invisible text-right text-white xl:visible xl:mt-12 xl:mr-20 xl:text-6xl font-primary "
@@ -15,16 +15,19 @@
             />
          </svg>
       </div>
+      <div class="md:h-48 lg:mt-12 lg:h-64"></div>
+      <plans-section class="lg:mt-24" />
    </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import NavBar from '@/components/NavBar.vue';
-
+import PlansSection from '@/components/PlansSection.vue';
 export default Vue.extend({
    components: {
-      NavBar
+      NavBar,
+      PlansSection
    }
 });
 </script>

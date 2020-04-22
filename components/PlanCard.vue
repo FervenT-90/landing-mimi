@@ -1,6 +1,6 @@
 <template>
    <div
-      class="flex flex-col items-center justify-center w-2/12 p-5 rounded-md shadow-md"
+      class="flex flex-col items-center justify-center w-2/12 p-5 bg-white rounded-md shadow-md"
    >
       <h1 class="mb-2 text-4xl font-semibold text-center font-primary">
          {{ title }}
