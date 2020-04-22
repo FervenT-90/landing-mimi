@@ -1,8 +1,8 @@
 <template>
    <header
-      class="border-b-2 border-white shadow-xl font-secondary bg-black-mimi sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      class="border-b-2 shadow-xl border-orange-mimi font-secondary bg-black-mimi sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
    >
-      <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+      <div class="flex items-center justify-between px-4 py-3 ml-4 sm:p-0">
          <div>
             <svg
                width="115"
@@ -31,7 +31,7 @@
 
          <div class="flex sm:hidden">
             <button
-               class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
+               class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi hover:bg-orange-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
             >
                Join Us!
             </button>
@@ -57,7 +57,7 @@
       </div>
       <nav
          :class="isOpen ? 'block' : 'hidden'"
-         class="px-2 pt-2 pb-4 sm:flex sm:p-0"
+         class="px-2 pt-2 pb-4 mr-4 sm:flex sm:p-0"
       >
          <a
             href="#"
