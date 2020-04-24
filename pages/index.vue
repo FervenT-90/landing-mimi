@@ -15,19 +15,33 @@
             />
          </svg>
       </div>
+<<<<<<< HEAD
       <div class="md:h-48 lg:mt-12 lg:h-64"></div>
       <plans-section class="lg:mt-24" />
+=======
+      <div class="h-16 md:mt-8 md:h-16 lg:h-10 lg:mt-56"></div>
+      <carousel-controller />
+>>>>>>> develop
    </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import NavBar from '@/components/NavBar.vue';
+<<<<<<< HEAD
 import PlansSection from '@/components/PlansSection.vue';
 export default Vue.extend({
    components: {
       NavBar,
       PlansSection
+=======
+import CarouselController from '@/components/CarouselController.vue';
+
+export default Vue.extend({
+   components: {
+      NavBar,
+      CarouselController
+>>>>>>> develop
    }
 });
 </script>
