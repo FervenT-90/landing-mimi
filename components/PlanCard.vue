@@ -1,12 +1,12 @@
 <template>
    <div
-      class="flex flex-col items-center justify-center w-2/12 p-5 rounded-md shadow-md"
+      class="flex flex-col items-center justify-center p-5 my-2 bg-white rounded-md shadow-md md:mx-3 lg:my-0 lg:w-2/12"
    >
       <h1 class="mb-2 text-4xl font-semibold text-center font-primary">
          {{ title }}
       </h1>
       <div
-         class="flex flex-col items-center justify-center w-40 h-40 my-3 text-2xl text-center text-white rounded-full font-secondary gradient"
+         class="flex flex-col items-center justify-center w-40 h-40 my-3 text-2xl text-center text-white rounded-full md:my-1 md:text-lg md:w-32 md:h-32 font-secondary gradient"
       >
          <h4 class="text-4xl font-medium">{{ price }} {{ currency }}</h4>
          <h5>/{{ pricePer }}</h5>
@@ -15,7 +15,7 @@
          <p>{{ description }}</p>
       </div>
       <button
-         class="hidden px-3 py-1 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block hover:bg-orange-mimi active:bg-teal-800"
+         class="px-3 py-1 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline hover:bg-orange-mimi active:bg-teal-800"
       >
          Start now!
       </button>
