@@ -1,12 +1,12 @@
 <template>
    <div
-      class="flex flex-col items-center justify-center p-5 my-2 bg-white rounded-md shadow-md md:mx-3 lg:my-0 lg:w-2/12"
+      class="flex flex-col items-center justify-center p-5 my-2 bg-white rounded-md shadow-md featured card lg:my-0 lg:w-2/12"
    >
       <h1 class="mb-2 text-4xl font-semibold text-center font-primary">
          {{ title }}
       </h1>
       <div
-         class="flex flex-col items-center justify-center w-40 h-40 my-3 text-2xl text-center text-white rounded-full md:my-1 md:text-lg md:w-32 md:h-32 font-secondary gradient"
+         class="flex flex-col items-center justify-center w-40 h-40 my-3 text-2xl text-center text-white rounded-full md:my-1 font-secondary gradient"
       >
          <h4 class="text-4xl font-medium">{{ price }} {{ currency }}</h4>
          <h5>/{{ pricePer }}</h5>
@@ -52,4 +52,39 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.featured {
+   animation: tada 8s 3s infinite;
+}
+
+@keyframes tada {
+   from {
+      transform: scale3d(1, 1, 1);
+   }
+
+   2.5%,
+   5% {
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+   }
+
+   7.5%,
+   12.5%,
+   17.5%,
+   22.5% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+   }
+
+   10%,
+   15%,
+   20% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+   }
+   25% {
+      transform: scale3d(1, 1, 1);
+   }
+
+   to {
+      transform: scale3d(1, 1, 1);
+   }
+}
+</style>
