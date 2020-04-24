@@ -1,8 +1,10 @@
 <template>
-   <div class="md:flex md:items-center md:justify-center ">
+   <div
+      class="flex flex-col items-center justify-center p-4 md:flex-row lg:my-10 "
+   >
       <plan-card />
-      <plan-card class="ml-4" />
-      <plan-card class="ml-4" />
+      <plan-card />
+      <plan-card />
    </div>
 </template>
 

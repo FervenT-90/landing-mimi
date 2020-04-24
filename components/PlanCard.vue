@@ -1,10 +1,6 @@
 <template>
    <div
-<<<<<<< HEAD
-      class="flex flex-col items-center justify-center w-2/12 p-5 bg-white rounded-md shadow-md"
-=======
       class="flex flex-col items-center justify-center p-5 my-2 bg-white rounded-md shadow-md md:mx-3 lg:my-0 lg:w-2/12"
->>>>>>> develop
    >
       <h1 class="mb-2 text-4xl font-semibold text-center font-primary">
          {{ title }}
@@ -37,7 +33,8 @@ export default Vue.extend({
       },
       description: {
          type: String,
-         default: 'Some description about the plan'
+         default:
+            'Some description about the plan Some description about the plan Some description about the plan Some description about the plan'
       },
       price: {
          type: String,
