@@ -1,8 +1,26 @@
 <template>
    <hooper class="focus:outline-none" :settings="hooperSettings">
-      <slide>1</slide>
-      <slide>2</slide>
-      <slide>3</slide>
+      <slide
+         ><carousel-element
+            title="Personal Training"
+            description="Our training sessions are performed in small groups and are always led by our coaches"
+            svg-src="/svg/carouselSvgs/personalTraining.min.svg"
+      /></slide>
+      <slide
+         ><carousel-element
+            title="Book your Training"
+            description="You don't have to call or stop by the box to book your workouts. From anywhere and at any time you can check availability and sign up through our mobile app"
+            svg-src="/svg/carouselSvgs/bookYourTraining.min.svg"
+      /></slide>
+      <slide
+         ><carousel-element
+            title="Keep in Touch"
+            description="You don't have to call or stop by the box to book your workouts. From anywhere and at any time you can check availability and sign up through our mobile app"
+            svg-src="/svg/carouselSvgs/keepInTouch.min.svg"
+      /></slide>
+      <slide>
+         <carousel-element />
+      </slide>
       <hooper-navigation
          slot="hooper-addons"
          class="invisible md:visible"
@@ -21,19 +39,22 @@ import {
 
 import 'hooper/dist/hooper.css';
 
+import CarouselElement from '@/components/CarouselElement.vue';
+
 export default {
    name: 'CarouselController',
    components: {
       Hooper,
       Slide,
       HooperPagination,
-      HooperNavigation
+      HooperNavigation,
+      CarouselElement
    },
    data() {
       return {
          hooperSettings: {
             itemsToShow: 1,
-            // centerMode: true,
+            centerMode: true,
             infiniteScroll: true,
             autoPlay: true,
             playSpeed: 4500,
@@ -46,16 +67,12 @@ export default {
 
 <style>
 .hooper {
-   height: 300px;
+   height: 470px;
 }
-@screen sm {
-   .hooper {
-      height: 400px;
-   }
-}
+
 @screen md {
    .hooper {
-      height: 500px;
+      height: 650px;
    }
 }
 

@@ -15,7 +15,7 @@
             />
          </svg>
       </div>
-      <div class="h-16 md:mt-16 lg:h-24 lg:mt-56"></div>
+      <div class="h-16 md:mt-8 md:h-16 lg:h-10 lg:mt-56"></div>
       <carousel-controller />
    </div>
 </template>
