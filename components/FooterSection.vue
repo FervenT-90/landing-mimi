@@ -114,7 +114,7 @@
          </svg>
       </div>
       <div class="pt-5">
-         <p>Made with 💖 by MiMi</p>
+         <p>Made with 💜 by MiMi</p>
       </div>
 
       <div class="flex flex-row justify-end items-end">
