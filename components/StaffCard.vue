@@ -1,8 +1,8 @@
 <template>
    <div
-      class="w-64 h-auto rounded shadow-lg p-5 flex flex-col bg-white justify-center items-center m-8"
+      class="w-64 h-auto rounded shadow-lg p-5 mt-4 flex flex-col bg-white justify-center items-center mx-8"
    >
-      <img class=" my-3 rounded-full w-24 h-24" :src="imgSrc" alt="hola" />
+      <img class="my-3 rounded-full w-24 h-24" :src="imgSrc" alt="hola" />
       <div class="p-4 font-bold text-xl mb-2">
          <h1 class="text-gray-700 font-primary text-base text-2xl">
             {{ fullName }}
