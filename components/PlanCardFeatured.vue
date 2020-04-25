@@ -6,7 +6,7 @@
          {{ title }}
       </h1>
       <div
-         class="flex flex-col items-center justify-center w-40 h-40 my-3 text-2xl text-center text-white rounded-full md:my-1 font-secondary gradient"
+         class="flex flex-col items-center justify-center w-48 h-48 my-3 text-2xl text-center text-white rounded-full md:my-1 font-secondary gradient"
       >
          <h4 class="text-4xl font-medium">{{ price }} {{ currency }}</h4>
          <h5>/{{ pricePer }}</h5>
