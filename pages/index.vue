@@ -17,6 +17,7 @@
       </div>
       <div class="h-16 md:mt-8 md:h-16 lg:h-10 lg:mt-56"></div>
       <carousel-controller />
+      <plans-section />
    </div>
 </template>
 
@@ -24,16 +25,20 @@
 import Vue from 'vue';
 import NavBar from '@/components/NavBar.vue';
 import CarouselController from '@/components/CarouselController.vue';
-
+import PlansSection from '@/components/PlansSection.vue';
 export default Vue.extend({
    components: {
       NavBar,
-      CarouselController
+      CarouselController,
+      PlansSection
    }
 });
 </script>
 
 <style>
+body {
+   overflow-x: hidden;
+}
 .gradient {
    background: linear-gradient(90deg, #fe9c42 0%, #7e21f5 100%);
 }
