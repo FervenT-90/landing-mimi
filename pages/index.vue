@@ -18,6 +18,7 @@
       <div class="h-16 md:mt-8 md:h-16 lg:h-10 lg:mt-56"></div>
       <carousel-controller />
       <plans-section />
+      <schedule-section />
       <staff-section />
       <footer-section />
    </div>
@@ -30,12 +31,15 @@ import CarouselController from '@/components/CarouselController.vue';
 import PlansSection from '@/components/PlansSection.vue';
 import FooterSection from '@/components/FooterSection.vue';
 import StaffSection from '@/components/StaffSection.vue';
+import ScheduleSection from '@/components/ScheduleSection.vue';
+
 export default Vue.extend({
    components: {
       NavBar,
       CarouselController,
       PlansSection,
       StaffSection,
+      ScheduleSection,
       FooterSection
    }
 });

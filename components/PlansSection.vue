@@ -1,6 +1,6 @@
 <template>
    <div
-      class="flex flex-col items-center justify-center p-4 md:flex-row lg:my-10 "
+      class="flex flex-col items-center justify-center p-4 my-12 md:flex-row lg:my-10 "
    >
       <plan-card
          title="Beginner"
