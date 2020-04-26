@@ -1,6 +1,6 @@
 <template>
    <div
-      class="bg-black-mimi flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-around md:flex md:flex-row md:justify-around md:p-4 w-screen h-full lg:p-10 p-3 text-white font-secondary"
+      class="bg-black-mimi md:px-4 flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-around md:flex md:flex-row md:justify-around md:text-center w-screen h-full lg:p-10 p-3 text-white font-secondary"
    >
       <div>
          <svg
@@ -27,12 +27,14 @@
          <p>Phone: +34 679 242 574</p>
       </div>
 
-      <div class="flex mt-3 flex-col flex-row justify-center items-center">
+      <div
+         class="md:hidden lg:block flex mt-3 flex-col flex-row justify-center items-center"
+      >
          <h1 class="uppercase">Address</h1>
          <p>Avenida de la Salud 3</p>
          <p>S/C de Tenerife, Spain</p>
       </div>
-      <div>
+      <div class="my-6">
          <a target="_blank" href="https://www.google.com/maps"
             ><img
                class="shadow-xl rounded"
