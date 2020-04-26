@@ -15,7 +15,7 @@
       <slide
          ><carousel-element
             title="Keep in Touch"
-            description="You don't have to call or stop by the box to book your workouts. From anywhere and at any time you can check availability and sign up through our mobile app"
+            description="Evaluate our workouts to adjust them to your needs so that we can achieve your goals (improve progressively) as well as ours (keep our clients happy)"
             svg-src="/svg/carouselSvgs/keepInTouch.min.svg"
       /></slide>
       <slide>

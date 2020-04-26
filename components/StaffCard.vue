@@ -1,20 +1,27 @@
 <template>
    <div
-      class="w-64 h-auto rounded shadow-lg p-5 mt-4 flex flex-col bg-white justify-center items-center mx-8"
+      class="flex flex-col items-center justify-center w-64 p-5 mx-8 mt-4 bg-white rounded shadow-lg"
    >
-      <img class="my-3 rounded-full w-24 h-24" :src="imgSrc" alt="hola" />
-      <div class="p-4 font-bold text-xl mb-2">
-         <h1 class="text-gray-700 font-primary text-base text-2xl">
-            {{ fullName }}
-         </h1>
+      <img
+         class="w-48 h-32 my-3 rounded-full"
+         :src="imgSrc"
+         alt="staff image"
+      />
+      <h1
+         class="mt-6 text-base text-2xl font-bold text-center text-gray-700 font-primary"
+      >
+         {{ fullName }}
+      </h1>
+      <div
+         class="flex flex-col items-center justify-center h-48 p-4 mb-2 text-center"
+      >
+         <p class="mt-3 text-base text-gray-700 font-secondary">
+            {{ description }}
+         </p>
       </div>
 
-      <p class="text-gray-700 font-secondary text-center text-base">
-         {{ description }}
-      </p>
-
       <div class="flex flex-row py-5">
-         <span class="py-3 px-5 inline-block">
+         <span class="inline-block px-5 py-3">
             <a target="_blank" :href="facebookUrl"
                ><img
                   class="w-12 h-8"
@@ -23,7 +30,7 @@
                />
             </a>
          </span>
-         <span class="py-3 px-5 inline-block text-gray-700">
+         <span class="inline-block px-5 py-3 text-gray-700">
             <a target="_blank" :href="twitterUrl"
                ><img
                   class="w-12 h-8"
@@ -32,7 +39,7 @@
                />
             </a>
          </span>
-         <span class="py-3 px-5 inline-block text-gray-700">
+         <span class="inline-block px-5 py-3 text-gray-700">
             <a target="_blank" :href="instagramUrl"
                ><img
                   class="w-12 h-8"
