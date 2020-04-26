@@ -1,17 +1,21 @@
 <template>
    <section>
-      <h1 class="text-center text-4xl text-white font-primary pt-6">
+      <h1 class="pt-6 text-4xl text-center text-white font-primary">
          Our Team
       </h1>
 
       <div
-         class="my-3 mb-5 md:flex-row flex flex-col justify-center items-center"
+         class="flex flex-col items-center justify-center my-3 mb-5 md:flex-row"
       >
-         <staff-card />
          <staff-card
-            img-src="https://images.unsplash.com/photo-1579119986241-5e72d26cb690?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
-            full-name="Mike Flanagang"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            img-src="/images/womanStaff.webp"
+            full-name="Lindsey Bethan Sullivan"
+            description="I'm a 28-year-old semi-professional sports person who enjoys binge-watching boxed sets, spreading fake news on Facebook and photography."
+         />
+         <staff-card
+            img-src="/images/manStaff.webp"
+            full-name="Justin Shelby Adams"
+            description="I'm a 24-year-old semi-professional sports person who enjoys tennis, theatre and competitive dog grooming"
          />
       </div>
    </section>
