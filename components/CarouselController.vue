@@ -18,9 +18,6 @@
             description="Evaluate our workouts to adjust them to your needs so that we can achieve your goals (improve progressively) as well as ours (keep our clients happy)"
             svg-src="/svg/carouselSvgs/keepInTouch.min.svg"
       /></slide>
-      <slide>
-         <carousel-element />
-      </slide>
       <hooper-navigation
          slot="hooper-addons"
          class="invisible md:visible"
