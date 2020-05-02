@@ -1,5 +1,6 @@
 <template>
-   <div
+   <section
+      id="pricing"
       class="flex flex-col items-center justify-center p-4 my-12 md:flex-row lg:my-10 "
    >
       <plan-card
@@ -35,7 +36,7 @@
             '1 FREE physiotherapy session/week'
          ]"
       />
-   </div>
+   </section>
 </template>
 
 <script>

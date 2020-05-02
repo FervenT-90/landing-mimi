@@ -1,5 +1,5 @@
 <template>
-   <section>
+   <section id="team">
       <h1 class="pt-6 text-4xl text-center text-white font-primary">
          Our Team
       </h1>

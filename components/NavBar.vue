@@ -60,17 +60,17 @@
          class="px-2 pt-2 pb-4 mr-4 sm:flex sm:p-0"
       >
          <a
-            href="#"
+            href="#pricing"
             class="block px-2 py-1 font-semibold text-white rounded hover:text-orange-mimi focus:outline-none focus:underline active:bg-teal-800"
             >Pricing</a
          >
          <a
-            href="#"
+            href="#schedule"
             class="block px-2 py-1 mt-1 font-semibold text-white rounded hover:text-orange-mimi sm:mt-0 sm:ml-2 focus:outline-none focus:underline active:bg-teal-800"
             >Schedule</a
          >
          <a
-            href="#"
+            href="#team"
             class="block px-2 py-1 mt-1 font-semibold text-white rounded hover:text-orange-mimi sm:mt-0 sm:ml-2 focus:outline-none focus:underline active:bg-teal-800"
             >Our Team</a
          >
