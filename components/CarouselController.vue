@@ -55,7 +55,8 @@ export default {
             infiniteScroll: true,
             autoPlay: true,
             playSpeed: 4500,
-            transition: 500
+            transition: 500,
+            wheelControl: false
          }
       };
    }
