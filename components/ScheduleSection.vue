@@ -1,5 +1,5 @@
 <template>
-   <section id="schedule" class="my-16">
+   <section id="schedule" class="mt-32 mb-16">
       <h1 class="pt-6 text-4xl text-center text-white font-primary">
          Our Schedule
       </h1>
