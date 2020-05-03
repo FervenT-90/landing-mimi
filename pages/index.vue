@@ -5,6 +5,7 @@
       <div class="h-16 md:mt-8 md:h-16 lg:h-10 lg:mt-56"></div>
       <carousel-controller />
       <plans-section />
+      <subscribe-section />
       <schedule-section />
       <staff-section />
       <footer-section />
@@ -20,6 +21,7 @@ import PlansSection from '@/components/PlansSection.vue';
 import ScheduleSection from '@/components/ScheduleSection.vue';
 import StaffSection from '@/components/StaffSection.vue';
 import FooterSection from '@/components/FooterSection.vue';
+import SubscribeSection from '@/components/SubscribeSection.vue';
 
 export default Vue.extend({
    components: {
@@ -27,6 +29,7 @@ export default Vue.extend({
       TopWave,
       CarouselController,
       PlansSection,
+      SubscribeSection,
       ScheduleSection,
       StaffSection,
       FooterSection

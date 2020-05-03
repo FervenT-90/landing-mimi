@@ -1,6 +1,6 @@
 <template>
    <div
-      class="bg-black-mimi md:px-4 flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-around md:flex md:flex-row md:justify-around md:text-center w-screen h-full lg:p-10 p-3 text-white font-secondary"
+      class="flex flex-col items-center justify-center w-screen h-full p-3 text-white bg-black-mimi md:px-4 lg:flex lg:flex-row lg:justify-around md:flex md:flex-row md:justify-around md:text-center lg:p-10 font-secondary"
    >
       <div>
          <svg
@@ -21,14 +21,14 @@
          </svg>
       </div>
 
-      <div class="flex flex-col mt-3 justify-center items-center">
+      <div class="flex flex-col items-center justify-center mt-3">
          <h1 class="uppercase">Contact info</h1>
          <p>Email: info@ibox.com</p>
          <p>Phone: +34 679 242 574</p>
       </div>
 
       <div
-         class="md:hidden lg:block flex mt-3 flex-col flex-row justify-center items-center"
+         class="flex flex-row flex-col items-center justify-center mt-3 md:hidden lg:block"
       >
          <h1 class="uppercase">Address</h1>
          <p>Avenida de la Salud 3</p>
@@ -37,7 +37,7 @@
       <div class="my-6">
          <a target="_blank" href="https://www.google.com/maps"
             ><img
-               class="shadow-xl rounded"
+               class="rounded shadow-xl"
                src="/svg/iboxLocation.svg"
                alt="iboxLocation"
          /></a>
@@ -46,7 +46,7 @@
          <p>Made with 💜 by MiMi</p>
       </div>
 
-      <div class="flex flex-row justify-end items-end">
+      <div class="flex flex-row items-end justify-end">
          <svg
             width="50"
             height="100"
