@@ -34,8 +34,6 @@ import {
    Navigation as HooperNavigation
 } from 'hooper';
 
-import 'hooper/dist/hooper.css';
-
 import CarouselElement from '@/components/CarouselElement.vue';
 
 export default {
@@ -117,12 +115,4 @@ export default {
    height: 50px;
    width: 50px;
 }
-
-/* .hooper-pagination {
-} */
-
-/* .hooper-track {
-}
-.hooper-list {
-} */
 </style>
