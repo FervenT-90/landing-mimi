@@ -1,19 +1,19 @@
 <template>
    <section id="subscribe">
       <div
-         class="absolute z-0 w-screen h-56 py-56 m-auto opacity-75 bg-black-mimi"
+         class="absolute z-0 w-screen h-56 py-56 m-auto opacity-75 xl:py-64 bg-black-mimi"
       ></div>
       <div class="z-10 h-16"></div>
       <div class="z-10 flex flex-row items-center justify-around">
          <img
             class="z-10 hidden mr-20 opacity-100 lg:w-3/12 md:w-3/12 md:mr-10 md:block"
-            src="/svg/subscribeBirdsSvg.svg"
+            src="/svg/newsletter.min.svg"
             alt=""
          />
          <div
             class="relative z-10 flex flex-col items-center justify-center w-64 h-auto"
          >
-            <h1 class="pt-6 text-4xl text-center text-white font-primary">
+            <h1 class="text-4xl text-center text-white font-primary">
                Newsletter
             </h1>
             <p class="mt-4 text-base text-center text-white font-secondary">
@@ -37,7 +37,7 @@
          </div>
          <img
             class="z-10 hidden ml-20 lg:w-3/12 md:w-3/12 md:ml-10 md:block"
-            src="/svg/subscribeRunnerSvg.svg"
+            src="/svg/newsletterStart.min.svg"
             alt=""
          />
       </div>
