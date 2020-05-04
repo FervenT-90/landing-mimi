@@ -1,6 +1,7 @@
 /* purgecss start ignore */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+@import 'hooper/dist/hooper.css';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
