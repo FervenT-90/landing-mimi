@@ -2,7 +2,7 @@
    <header
       class="border-b-2 shadow-xl border-orange-mimi font-secondary bg-black-mimi sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
    >
-      <div class="flex items-center justify-between px-4 py-3 ml-4 sm:p-0">
+      <div class="flex items-center justify-between px-3 py-3 ml-4 sm:p-0">
          <div>
             <svg
                width="115"
@@ -35,6 +35,7 @@
             >
                Join Us!
             </button>
+            <language-switcher />
             <button
                type="button"
                class="block text-gray-500 focus:text-white focus:outline-none active:text-white"
@@ -79,15 +80,20 @@
          >
             Join Us!
          </button>
+         <language-switcher class="hidden md:block" />
       </nav>
    </header>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue';
 
 export default Vue.extend({
    name: 'NavBar' as string,
+   components: {
+      LanguageSwitcher
+   },
    data() {
       return {
          isOpen: false
