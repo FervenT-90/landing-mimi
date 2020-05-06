@@ -1,5 +1,7 @@
 # landing-mimi
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a9ffd86-f64c-4e28-be1c-3c91504e2396/deploy-status)](https://app.netlify.com/sites/landing-mimi/deploys)
+
 Landing page of **iBox** webapp
 
 This is a project of a landing page for the **EOI-Frontend-Course**.
