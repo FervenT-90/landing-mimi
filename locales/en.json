@@ -1,0 +1,75 @@
+{
+   "title": "Functional Training",
+   "navbar": {
+      "pricing": "Pricing",
+      "schedule": "Schedule",
+      "team": "Our Team",
+      "joinUs": "Join Us!"
+   },
+   "carouselElements": {
+      "personalTraining": {
+         "title": "Personal Training",
+         "description": "Our training sessions are performed in small groups and are always led by our coaches"
+      },
+      "bookYourTraining": {
+         "title": "Book your Training",
+         "description": "You don't have to call or stop by the box to book your workouts. From anywhere and at any time you can check availability and sign up through our mobile app"
+      },
+      "keepInTouch": {
+         "title": "Keep in Touch",
+         "description": "Evaluate our workouts to adjust them to your needs so that we can achieve your goals (improve progressively) as well as ours (keep our clients happy)"
+      }
+   },
+   "planSection": {
+      "title": "Pricing",
+      "pricePer": "/Month",
+      "services": {
+         "sessions": {
+            "eight": "8 sessions (2/week)",
+            "twelve": "12 sessions (3/week)",
+            "unlimited": "Unlimited training/week"
+         },
+         "towell": "Towel included",
+         "bottleOfWater": {
+            "small": "Small bottle of water",
+            "big": "Big bottle of water"
+         },
+         "pieceOfFruit": "Piece of fruit at ending of training",
+         "physiotherapy": "1 FREE physiotherapy session/week"
+      },
+      "beginner": {
+         "title": "Beginner",
+         "description": "Perfect for Beginners!"
+      },
+
+      "pro": {
+         "title": "Pro",
+         "description": "Great for those who take wellness seriously"
+      },
+      "unlimited": {
+         "title": "Unlimited",
+         "description": "Unlimited access to services"
+      }
+   },
+   "subscribeSection": {
+      "description": "Want to know about news and get started with a FREE workout?",
+      "inputPlaceholder": "Enter your email here...",
+      "unsubscribe": "Remember, feel free to unsubscribe at any time",
+      "button": "Subscribe"
+   },
+   "scheduleSection": {
+      "title": "Schedule"
+   },
+   "staffSection": {
+      "title": "Our Team",
+      "staffCard": {
+         "staffOneDescription": "I'm a 28-year-old semi-professional sports person who enjoys  , spreading fake news on Facebook and photography.",
+         "staffTwoDescription": "I'm a 24-year-old semi-professional sports person who enjoys tennis, theatre and competitive dog grooming"
+      }
+   },
+   "footer": {
+      "contactInfo": "Contact Info",
+      "phone": "Phone",
+      "address": "Address"
+   }
+}

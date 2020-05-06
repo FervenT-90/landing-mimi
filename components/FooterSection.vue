@@ -22,15 +22,15 @@
       </div>
 
       <div class="flex flex-col items-center justify-center mt-3">
-         <h1 class="uppercase">Contact info</h1>
+         <h1 class="uppercase">{{ $t('footer.contactInfo') }}</h1>
          <p>Email: info@ibox.com</p>
-         <p>Phone: +34 679 242 574</p>
+         <p>{{ $t('footer.phone') }}: +34 679 242 574</p>
       </div>
 
       <div
          class="flex flex-row flex-col items-center justify-center mt-3 md:hidden lg:block"
       >
-         <h1 class="uppercase">Address</h1>
+         <h1 class="uppercase">{{ $t('footer.address') }}</h1>
          <p>Avenida de la Salud 3</p>
          <p>S/C de Tenerife, Spain</p>
       </div>
