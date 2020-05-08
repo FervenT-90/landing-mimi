@@ -1,41 +1,41 @@
 <template>
-   <section
-      id="pricing"
-      class="flex flex-col items-center justify-center p-4 my-12 md:flex-row lg:my-10 "
-   >
-      <plan-card
-         title="Beginner"
-         description="Perfect for Beginners!"
-         :price="29.98"
-         :services="[
-            '8 sessions (2/week)',
-            'Towel included',
-            'Small bottle of water'
-         ]"
-      />
-      <plan-card-featured
-         title="Pro"
-         description="Great for those who take wellness seriously"
-         :price="49.98"
-         :services="[
-            '12 sessions (3/week)',
-            'Towel included',
-            'Big bottle of water',
-            'Piece of fruit at ending of training'
-         ]"
-      />
-      <plan-card
-         title="Unlimited"
-         description="Unlimited access to services"
-         :price="79.98"
-         :services="[
-            'Unlimited training/week',
-            'Towel included',
-            'Big bottle of water',
-            'Piece of fruit at ending of training',
-            '1 FREE physiotherapy session/week'
-         ]"
-      />
+   <section id="pricing" class="p-4 my-12 lg:my-10">
+      <h1 class="pt-6 text-4xl text-center text-white font-primary"></h1>
+      <div class="flex flex-col items-center justify-center mt-6 md:flex-row">
+         <plan-card
+            :title="$t('planSection.beginner.title')"
+            :description="$t('planSection.beginner.description')"
+            :price="29.98"
+            :services="[
+               $t('planSection.services.sessions.eight'),
+               $t('planSection.services.towell'),
+               $t('planSection.services.bottleOfWater.small')
+            ]"
+         />
+         <plan-card-featured
+            :title="$t('planSection.pro.title')"
+            :description="$t('planSection.pro.description')"
+            :price="49.98"
+            :services="[
+               $t('planSection.services.sessions.twelve'),
+               $t('planSection.services.towell'),
+               $t('planSection.services.bottleOfWater.big'),
+               $t('planSection.services.pieceOfFruit')
+            ]"
+         />
+         <plan-card
+            :title="$t('planSection.unlimited.title')"
+            :description="$t('planSection.unlimited.description')"
+            :price="79.98"
+            :services="[
+               $t('planSection.services.sessions.unlimited'),
+               $t('planSection.services.towell'),
+               $t('planSection.services.bottleOfWater.big'),
+               $t('planSection.services.pieceOfFruit'),
+               $t('planSection.services.physiotherapy')
+            ]"
+         />
+      </div>
    </section>
 </template>
 

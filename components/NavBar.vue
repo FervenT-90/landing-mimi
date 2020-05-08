@@ -2,7 +2,7 @@
    <header
       class="border-b-2 shadow-xl border-orange-mimi font-secondary bg-black-mimi sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
    >
-      <div class="flex items-center justify-between px-4 py-3 ml-4 sm:p-0">
+      <div class="flex items-center justify-between px-3 py-3 ml-4 sm:p-0">
          <div>
             <svg
                width="115"
@@ -33,8 +33,9 @@
             <button
                class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi hover:bg-orange-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
             >
-               Join Us!
+               {{ $t('navbar.joinUs') }}
             </button>
+            <language-switcher />
             <button
                type="button"
                class="block text-gray-500 focus:text-white focus:outline-none active:text-white"
@@ -62,32 +63,37 @@
          <a
             href="#pricing"
             class="block px-2 py-1 font-semibold text-white rounded hover:text-orange-mimi focus:outline-none focus:underline active:bg-teal-800"
-            >Pricing</a
+            >{{ $t('navbar.pricing') }}</a
          >
          <a
             href="#schedule"
             class="block px-2 py-1 mt-1 font-semibold text-white rounded hover:text-orange-mimi sm:mt-0 sm:ml-2 focus:outline-none focus:underline active:bg-teal-800"
-            >Schedule</a
+            >{{ $t('navbar.schedule') }}</a
          >
          <a
             href="#team"
             class="block px-2 py-1 mt-1 font-semibold text-white rounded hover:text-orange-mimi sm:mt-0 sm:ml-2 focus:outline-none focus:underline active:bg-teal-800"
-            >Our Team</a
+            >{{ $t('navbar.team') }}</a
          >
          <button
             class="hidden px-2 py-1 ml-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block hover:bg-orange-mimi active:bg-teal-800"
          >
-            Join Us!
+            {{ $t('navbar.joinUs') }}
          </button>
+         <language-switcher class="hidden md:block" />
       </nav>
    </header>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue';
 
 export default Vue.extend({
    name: 'NavBar' as string,
+   components: {
+      LanguageSwitcher
+   },
    data() {
       return {
          isOpen: false

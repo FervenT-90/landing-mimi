@@ -1,0 +1,74 @@
+{
+   "title": "Entrenamiento funcional",
+   "navbar": {
+      "pricing": "Precios",
+      "schedule": "Horarios",
+      "team": "Equipo",
+      "joinUs": "Registrate"
+   },
+   "carouselElements": {
+      "personalTraining": {
+         "title": "Entrenamiento Personal",
+         "description": "Nuestras sesiones de entrenamiento se realizan en grupos reducidos y siempre supevisados por nuestro equipo"
+      },
+      "bookYourTraining": {
+         "title": "Reserva tus entrenamientos",
+         "description": "Comprueba la disponibilidad y reserva tus entrenamientos desde cualquier lugar y en cualquier momento sin necesidad de llamarnos o acudir al box"
+      },
+      "keepInTouch": {
+         "title": "Puntúa los entrenamientos",
+         "description": "Valora los entenamientos para que nuestros profesionales puedan adaptarse a tus necesidades y así ayudarte a conseguir tus metas (mejora progresiva) y la nuestra (tu satisfacción)"
+      }
+   },
+   "planSection": {
+      "title": "Precios",
+      "pricePer": "/Mes",
+      "services": {
+         "sessions": {
+            "eight": "8 sesiones (2/semana)",
+            "twelve": "12 sesiones (3/semana)",
+            "unlimited": "Sesiones ilimitadas"
+         },
+         "towell": "Toalla incluida",
+         "bottleOfWater": {
+            "small": "Botella de agua pequeña",
+            "big": "Botella de agua grande"
+         },
+         "pieceOfFruit": "Pieza de fruta al finalizar el entrenamiento",
+         "physiotherapy": "Una sesión GRATIS de fisioterapia a la semana"
+      },
+      "beginner": {
+         "title": "Principiante",
+         "description": "Perfecto para novat@s!"
+      },
+      "pro": {
+         "title": "Pro",
+         "description": "Si el deporte forma parte de tu vida, ¡éste es tu plan!"
+      },
+      "unlimited": {
+         "title": "Ilimitado",
+         "description": "Acceso ilimitado a nuestros servicios"
+      }
+   },
+   "subscribeSection": {
+      "description": "¿Enterate de las novedades y empieza con un entrenamiento GRATUITO?",
+      "inputPlaceholder": "Ingresa tu email...",
+      "unsubscribe": "Recuerda, puedes cancelar la suscripción en cualquier momento",
+      "button": "Subscribete"
+   },
+   "scheduleSection": {
+      "title": "Horarios"
+   },
+   "staffSection": {
+      "title": "Nuestro Equipo",
+      "staffCard": {
+         "staffOneDescription": "Soy una deportista semiprofesional de 28 años apasionada del boxeo, a la que le gusta difundir noticias falsas en Facebook y la fotografía.",
+         "staffTwoDescription": "Soy un deportista semiprofesional de 24 años al que le gusta el tenis, el teatro y los concursos de perros de pedigree"
+      }
+   },
+   "footer": {
+      "contactInfo": "Contacto",
+      "phone": "Teléfono",
+      "address": "Dirección"
+   }
+}

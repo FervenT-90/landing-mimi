@@ -1,7 +1,7 @@
 <template>
    <section id="schedule" class="mt-40 mb-16">
       <h1 class="pt-6 text-4xl text-center text-white font-primary">
-         Our Schedule
+         {{ $t('scheduleSection.title') }}
       </h1>
       <schedule-element
          class="mt-3"

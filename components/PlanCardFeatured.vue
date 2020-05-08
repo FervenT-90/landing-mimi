@@ -9,7 +9,7 @@
          class="flex flex-col items-center justify-center w-48 h-48 my-3 text-2xl text-center text-white rounded-full md:my-1 font-secondary gradient"
       >
          <h4 class="text-4xl font-medium">{{ price }} {{ currency }}</h4>
-         <h5>/{{ pricePer }}</h5>
+         <h5>{{ $t('planSection.pricePer') }}</h5>
       </div>
       <div class="mt-5 italic text-center font-secondary">
          <p>{{ description }}</p>
