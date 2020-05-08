@@ -2,20 +2,20 @@
    <hooper class="focus:outline-none" :settings="hooperSettings">
       <slide
          ><carousel-element
-            title="Personal Training"
-            description="Our training sessions are performed in small groups and are always led by our coaches"
+            :title="$t('carouselElements.personalTraining.title')"
+            :description="$t('carouselElements.personalTraining.description')"
             svg-src="/svg/carouselSvgs/personalTraining.min.svg"
       /></slide>
       <slide
          ><carousel-element
-            title="Book your Training"
-            description="You don't have to call or stop by the box to book your workouts. From anywhere and at any time you can check availability and sign up through our mobile app"
+            :title="$t('carouselElements.bookYourTraining.title')"
+            :description="$t('carouselElements.bookYourTraining.description')"
             svg-src="/svg/carouselSvgs/bookYourTraining.min.svg"
       /></slide>
       <slide
          ><carousel-element
-            title="Keep in Touch"
-            description="Evaluate our workouts to adjust them to your needs so that we can achieve your goals (improve progressively) as well as ours (keep our clients happy)"
+            :title="$t('carouselElements.keepInTouch.title')"
+            :description="$t('carouselElements.keepInTouch.description')"
             svg-src="/svg/carouselSvgs/keepInTouch.min.svg"
       /></slide>
       <hooper-navigation

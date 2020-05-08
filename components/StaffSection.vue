@@ -1,7 +1,7 @@
 <template>
    <section id="team">
       <h1 class="pt-6 text-4xl text-center text-white font-primary">
-         Our Team
+         {{ $t('staffSection.title') }}
       </h1>
 
       <div
@@ -10,12 +10,12 @@
          <staff-card
             img-src="/images/womanStaff.webp"
             full-name="Lindsey Bethan Sullivan"
-            description="I'm a 28-year-old semi-professional sports person who enjoys binge-watching boxed sets, spreading fake news on Facebook and photography."
+            :description="$t('staffSection.staffCard.staffOneDescription')"
          />
          <staff-card
             img-src="/images/manStaff.webp"
             full-name="Justin Shelby Adams"
-            description="I'm a 24-year-old semi-professional sports person who enjoys tennis, theatre and competitive dog grooming"
+            :description="$t('staffSection.staffCard.staffTwoDescription')"
          />
       </div>
    </section>

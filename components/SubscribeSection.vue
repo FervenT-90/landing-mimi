@@ -16,23 +16,26 @@
             <h1 class="text-4xl text-center text-white font-primary">
                Newsletter
             </h1>
-            <p class="mt-4 text-base text-center text-white font-secondary">
-               Want to know about news and get started with a FREE workout?
+            <p
+               id="description"
+               class="mt-4 text-base text-center text-white font-secondary"
+            >
+               {{ $t('subscribeSection.description') }}
             </p>
             <input
                class="w-64 h-10 p-4 mt-6 rounded shadow-xl focus:outline-none font-secondary"
                type="text"
-               placeholder="Enter your email here..."
+               :placeholder="$t('subscribeSection.inputPlaceholder')"
             />
             <p
                class="mt-4 text-xs italic text-center text-white font-secondary"
             >
-               Remember, feel free to unsubscribe at any time
+               {{ $t('subscribeSection.unsubscribe') }}
             </p>
             <button
                class="w-40 h-10 mt-6 font-semibold tracking-wider text-white uppercase rounded shadow-sm focus:outline-none focus:underline bg-violet-mimi hover:bg-orange-mimi"
             >
-               Subscribe
+               {{ $t('subscribeSection.button') }}
             </button>
          </div>
          <img

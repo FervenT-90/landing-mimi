@@ -41,8 +41,33 @@ export default {
     */
    modules: [
       // Doc: https://github.com/nuxt-community/dotenv-module
-      '@nuxtjs/dotenv'
+      '@nuxtjs/dotenv',
+      'nuxt-i18n'
    ],
+   i18n: {
+      baseUrl: 'http://ihealthybox.online',
+      seo: true,
+      locales: [
+         {
+            code: 'en',
+            iso: 'en-GB',
+            name: 'English'
+         },
+         {
+            code: 'es',
+            iso: 'es-ES',
+            name: 'Spanish'
+         }
+      ],
+      defaultLocale: 'es',
+      vueI18n: {
+         fallbackLocale: 'es',
+         messages: {
+            es: require('./locales/es.json'),
+            en: require('./locales/en.json')
+         }
+      }
+   },
    /*
     ** Build configuration
     */

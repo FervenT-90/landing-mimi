@@ -3,7 +3,7 @@
       <div
          class="absolute right-0 z-20 invisible text-right text-white xl:visible xl:mt-12 xl:mr-20 xl:text-6xl font-primary"
       >
-         <p>Functional Training</p>
+         <p>{{ $t('title') }}</p>
          <p>Box</p>
       </div>
       <div class="absolute z-10 w-full">
