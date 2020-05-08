@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 <template>
    <div
       class="relative items-center text-white md:px-3 md:ml-5 md:justify-center md:flex md:border-l-2 md:border-r-2 md:border-orange-mimi"
@@ -25,19 +26,20 @@
          v-if="isOpen"
          class="absolute left-0 right-0 z-50 w-16 mt-4 rounded-lg shadow-xl md:mt-16 bg-orange-mimi"
       >
-         <a
-            href="#"
-            class="block px-4 py-2 text-center text-black-mimi hover:text-white"
-            :class="selectedLanguage === 'EN' ? 'underline' : ''"
-            @click="swapToEnglish()"
-            >EN</a
-         >
-         <a
-            href="#"
+         <nuxt-link
+            :to="switchLocalePath('es')"
             class="block px-4 py-2 text-center text-black-mimi hover:text-white"
             :class="selectedLanguage === 'ES' ? 'underline' : ''"
-            @click="swapToSpanish()"
-            >ES</a
+            @click.native="closeLanguageModal()"
+            >ES</nuxt-link
+         >
+
+         <nuxt-link
+            :to="switchLocalePath('en')"
+            class="block px-4 py-2 text-center text-black-mimi hover:text-white"
+            :class="selectedLanguage === 'EN' ? 'underline' : ''"
+            @click.native="closeLanguageModal()"
+            >EN</nuxt-link
          >
       </div>
    </div>
@@ -47,17 +49,17 @@
 export default {
    data() {
       return {
-         isOpen: false,
-         selectedLanguage: 'EN'
+         isOpen: false
       };
    },
+   computed: {
+      selectedLanguage() {
+         const path = this.$nuxt.$route.path;
+         return path === '/en' ? 'EN' : 'ES';
+      }
+   },
    methods: {
-      swapToEnglish() {
-         this.selectedLanguage = 'EN';
-         this.isOpen = false;
-      },
-      swapToSpanish() {
-         this.selectedLanguage = 'ES';
+      closeLanguageModal() {
          this.isOpen = false;
       }
    }
