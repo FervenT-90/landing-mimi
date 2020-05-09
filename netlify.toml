@@ -1,0 +1,13 @@
+[build]
+    command = "npm run generate"
+    functions = "functions"
+    publish = "dist"
+
+[dev]
+    command = "npm run dev"
+    autoLaunch = true
+
+[[redirects]]
+    from = "api/*"
+    to = ".netlify/functions/:splat"
+    status = 200
