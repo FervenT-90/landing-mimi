@@ -2,11 +2,14 @@
    <div
       class="flex flex-col items-center justify-center w-64 p-5 mx-8 mt-4 bg-white rounded shadow-lg"
    >
-      <img
-         class="w-48 h-32 my-3 rounded-full"
-         :src="imgSrc"
-         alt="staff image"
-      />
+      <picture>
+         <source type="image/webp" :srcset="imgSrc" />
+         <img
+            class="w-48 h-32 my-3 rounded-full"
+            :src="jpgSource"
+            alt="Staff image"
+         />
+      </picture>
       <h1
          class="mt-6 text-base text-2xl font-bold text-center text-gray-700 font-primary"
       >
@@ -83,6 +86,11 @@ export default Vue.extend({
          type: String,
          default: 'https://www.instagram.com'
       }
+   },
+   data() {
+      return {
+         jpgSource: this.imgSrc.split('.')[0].concat('.jpg')
+      };
    }
 });
 </script>

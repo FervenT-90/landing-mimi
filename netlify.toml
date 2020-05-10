@@ -8,6 +8,7 @@
     autoLaunch = true
 
 [[redirects]]
-    from = "api/*"
-    to = ".netlify/functions/:splat"
-    status = 200
+    from = "https://ihealthybox.online/api/*"
+    to = "https://ihealthybox.online/.netlify/functions/:splat"
+    status = 301
+    force = true
