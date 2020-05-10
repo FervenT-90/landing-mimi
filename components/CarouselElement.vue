@@ -5,6 +5,7 @@
             :src="
                svgSrc !== '' ? svgSrc : '/svg/carouselSvgs/notFoundSVG.min.svg'
             "
+            :alt="title"
          />
       </div>
       <div

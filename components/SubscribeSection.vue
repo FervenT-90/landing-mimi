@@ -23,10 +23,18 @@
                {{ $t('subscribeSection.description') }}
             </p>
             <input
+               v-model="email"
                class="w-64 h-10 p-4 mt-6 rounded shadow-xl focus:outline-none font-secondary"
                type="text"
                :placeholder="$t('subscribeSection.inputPlaceholder')"
             />
+            <div v-if="subscribeSucceed">
+               <p
+                  class="mt-4 text-xs italic text-center text-green-400 font-secondary"
+               >
+                  {{ $t('subscribeSection.successMessage') }}
+               </p>
+            </div>
             <p
                class="mt-4 text-xs italic text-center text-white font-secondary"
             >
@@ -34,6 +42,7 @@
             </p>
             <button
                class="w-40 h-10 mt-6 font-semibold tracking-wider text-white uppercase rounded shadow-sm focus:outline-none focus:underline bg-violet-mimi hover:bg-orange-mimi"
+               @click="subscribe()"
             >
                {{ $t('subscribeSection.button') }}
             </button>
@@ -48,7 +57,30 @@
 </template>
 
 <script>
-export default {};
+import axios from 'axios';
+export default {
+   data() {
+      return {
+         email: '',
+         subscribeSucceed: false
+      };
+   },
+   methods: {
+      async subscribe() {
+         const response = await axios.post('/api/subscribe', this.email);
+         const { errors } = response;
+
+         if (errors) {
+            alert(errors);
+         }
+         this.subscribeSucceed = true;
+         setTimeout(() => {
+            this.email = '';
+            this.subscribeSucceed = false;
+         }, 6000);
+      }
+   }
+};
 </script>
 
 <style></style>
