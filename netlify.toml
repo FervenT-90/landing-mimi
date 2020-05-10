@@ -1,6 +1,6 @@
 [build]
     command = "npm run generate"
-    functions = "./functions"
+    functions = "functions"
     publish = "dist"
 
 [dev]
@@ -11,3 +11,4 @@
     from = "api/*"
     to = ".netlify/functions/:splat"
     status = 200
+    force = true
