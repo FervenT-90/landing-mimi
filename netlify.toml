@@ -1,6 +1,6 @@
 [build]
     command = "npm run generate"
-    functions = "functions"
+    functions = "./functions"
     publish = "dist"
 
 [dev]
