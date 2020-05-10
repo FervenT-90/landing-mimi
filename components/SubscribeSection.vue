@@ -67,7 +67,9 @@ export default {
    },
    methods: {
       async subscribe() {
-         const response = await axios.post('/api/subscribe', this.email);
+         const response = await axios.post('/.netlify/functions/subscribe', {
+            email: this.email
+         });
          const { errors } = response;
 
          if (errors) {
