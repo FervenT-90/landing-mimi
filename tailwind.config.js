@@ -24,6 +24,9 @@
  */
 
 module.exports = {
+   purge: {
+      enabled: false
+   },
    theme: {
       fontFamily: {
          primary: ['Oxanium', 'sans-serif'],
