@@ -27,6 +27,7 @@
                class="w-64 h-10 p-4 mt-6 rounded shadow-xl focus:outline-none font-secondary"
                type="text"
                :placeholder="$t('subscribeSection.inputPlaceholder')"
+               aria-label="email"
             />
             <div v-if="subscribeSucceed">
                <p
