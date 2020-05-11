@@ -37,8 +37,8 @@
       <div class="my-6">
          <a target="_blank" href="https://www.google.com/maps"
             ><img
-               class="rounded shadow-xl"
-               src="/svg/iboxLocation.svg"
+               class="h-20 rounded shadow-xl lg:h-auto "
+               src="/iboxLocation.png"
                alt="iboxLocation"
          /></a>
       </div>

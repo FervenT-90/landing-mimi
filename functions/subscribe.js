@@ -3,11 +3,13 @@ require('dotenv').config();
 exports.handler = (event, _context, callback) => {
    const client = require('@sendgrid/client');
    client.setApiKey(process.env.SENDGRID_API_KEY);
+   const body = JSON.parse(event.body);
+   const email = body.email;
 
    const data = {
       contacts: [
          {
-            email: event.body
+            email
          }
       ]
    };
