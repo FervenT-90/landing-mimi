@@ -25,7 +25,7 @@
 
       <div class="flex flex-row py-5">
          <span class="inline-block px-5 py-3">
-            <a target="_blank" :href="facebookUrl"
+            <a target="_blank" :href="facebookUrl" title="Go to Facebook"
                ><img
                   class="w-12 h-8"
                   src="../static/svg/facebookMinIcon.svg"
@@ -34,7 +34,7 @@
             </a>
          </span>
          <span class="inline-block px-5 py-3 text-gray-700">
-            <a target="_blank" :href="twitterUrl"
+            <a target="_blank" :href="twitterUrl" title="Go to Twitter"
                ><img
                   class="w-12 h-8"
                   src="../static/svg/twitterMinIcon.svg"
@@ -43,7 +43,7 @@
             </a>
          </span>
          <span class="inline-block px-5 py-3 text-gray-700">
-            <a target="_blank" :href="instagramUrl"
+            <a target="_blank" :href="instagramUrl" title="Go to Instagram"
                ><img
                   class="w-12 h-8"
                   src="../static/svg/instagramMinIcon.svg"
