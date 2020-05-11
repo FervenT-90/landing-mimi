@@ -24,6 +24,7 @@
  */
 
 module.exports = {
+   purge: ['./src/**/*.html', './src/**/*.html'],
    theme: {
       fontFamily: {
          primary: ['Oxanium', 'sans-serif'],
