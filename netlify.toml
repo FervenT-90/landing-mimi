@@ -7,8 +7,8 @@
     command = "npm run dev"
     autoLaunch = true
 
-# [[redirects]]
-#    from = "https://ihealthybox.online/api/*"
-#    to = "https://ihealthybox.online/.netlify/functions/:splat"
-#    status = 301
-#    force = true
+[[redirects]]
+   from = "/api/*"
+   to = "/.netlify/functions/:splat"
+   status = 200
+   force = true
