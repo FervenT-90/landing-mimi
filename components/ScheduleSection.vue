@@ -7,7 +7,7 @@
          class="mt-3"
          svg-src="/svg/morning.min.svg"
          alt="Morning Icon"
-         :timetable="['09:00 - 10:00', '10:30 - 11:30', '11:00 - 13:00']"
+         :timetable="['09:00 - 10:00', '10:30 - 11:30', '12:00 - 13:00']"
       />
       <schedule-element
          svg-src="/svg/afternoon.min.svg"
