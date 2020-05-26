@@ -41,6 +41,15 @@
             >
                {{ $t('subscribeSection.unsubscribe') }}
             </p>
+            <div class="flex items-baseline justify-center w-screen">
+               <p
+                  class="mt-4 text-xs italic text-center text-white font-secondary"
+               >
+                  {{ $t('subscribeSection.terms') }}
+                  <input class="pt-px ml-3" type="checkbox" />
+               </p>
+            </div>
+
             <button
                class="w-40 h-10 mt-6 font-semibold tracking-wider text-white uppercase rounded shadow-sm focus:outline-none focus:underline bg-violet-mimi hover:bg-orange-mimi"
                @click="subscribe()"

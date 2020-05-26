@@ -30,11 +30,13 @@
          </div>
 
          <div class="flex sm:hidden">
-            <button
+            <a
+               href="https://app.ihealthybox.online"
                class="px-2 py-1 mx-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi hover:bg-orange-mimi focus:outline-none focus:underline sm:block active:bg-orange-mimi"
             >
                {{ $t('navbar.joinUs') }}
-            </button>
+            </a>
+
             <language-switcher />
             <button
                type="button"
