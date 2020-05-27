@@ -77,11 +77,12 @@
             class="block px-2 py-1 mt-1 font-semibold text-white rounded hover:text-orange-mimi sm:mt-0 sm:ml-2 focus:outline-none focus:underline active:bg-teal-800"
             >{{ $t('navbar.team') }}</a
          >
-         <button
+         <a
+            href="https://app.ihealthybox.online"
             class="hidden px-2 py-1 ml-4 font-semibold tracking-wider text-white uppercase rounded shadow bg-violet-mimi focus:outline-none focus:underline sm:block hover:bg-orange-mimi active:bg-teal-800"
          >
             {{ $t('navbar.joinUs') }}
-         </button>
+         </a>
          <language-switcher class="hidden md:block" />
       </nav>
    </header>
