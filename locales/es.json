@@ -54,6 +54,7 @@
       "description": "¿Enterate de las novedades y empieza con un entrenamiento GRATUITO?",
       "inputPlaceholder": "Ingresa tu email...",
       "unsubscribe": "Recuerda, puedes cancelar la suscripción en cualquier momento",
+      "terms": "Debes aceptar los términos y condiciones en materia de privacidad para subscribirte",
       "button": "Subscribete",
       "successMessage": "Subscrito satisfactoriamente! Gracias por subscribirte!"
    },

@@ -1,5 +1,5 @@
 <template>
-   <hooper class="focus:outline-none" :settings="hooperSettings">
+   <hooper class="focus:outline-none fade" :settings="hooperSettings">
       <slide
          ><carousel-element
             :title="$t('carouselElements.personalTraining.title')"

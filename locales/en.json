@@ -55,6 +55,7 @@
       "description": "Want to know about news and get started with a FREE workout?",
       "inputPlaceholder": "Enter your email here...",
       "unsubscribe": "Remember, feel free to unsubscribe at any time",
+      "terms": "You must accept the privacy terms and conditions to subscribe",
       "button": "Subscribe",
       "successMessage": "Successfully subcribed! Thanks for subscribing!"
    },
